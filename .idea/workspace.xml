@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a28f2c-0084-41af-a249-fd45394faaaa" name="Default Changelist" comment="Add a configuration line">
+    <list default="true" id="f6a28f2c-0084-41af-a249-fd45394faaaa" name="Default Changelist" comment="Add configuration about errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
@@ -31,6 +31,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="prenota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/prenota.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP xamp" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.prenota.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615023580035</updated>
-      <workItem from="1615023581159" duration="3424000" />
+      <workItem from="1615023581159" duration="4814000" />
     </task>
     <task id="LOCAL-00001" summary="ciao">
       <created>1615023977294</created>
@@ -55,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615025787947</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add configuration about errors">
+      <created>1615027774925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615027774925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,17 +86,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ciao" />
     <MESSAGE value="Add a configuration line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a configuration line" />
+    <MESSAGE value="Add configuration about errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add configuration about errors" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615027401412">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615029074034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615027401412" />
-    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1615027369150">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615029074034" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1615029059413">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615027369150" />
+    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615029059413" />
     <state x="477" y="264" key="NewPhpFileDialog" timestamp="1615023591625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

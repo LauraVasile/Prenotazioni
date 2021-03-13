@@ -1,18 +1,6 @@
 <?php
 // dice a livello dello script che gli errori verranno mostrati e che non verranno loggati
-ini_set('display_errors', 1);
-ini_set('log_errors', 0);
-
-
-$host = 'localhost';
-$db = 'covid';
-$user = 'root';
-$pass = '';
-$charset = 'utf8';
-
-//Stringa di connessione
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$pdo = new PDO($dsn, $user, $pass);
+include_once "config.php";
 
 // $sql = "SELECT * FROM prenotazioni WHERE giorno = 2021-06-03";
 
@@ -35,3 +23,9 @@ $stmt -> execute(
         'giorno' => $giorno
     ]
 );
+ // query preparate servono per passare i valori delle variabili
+
+//spedire delle righe nell'header dell'http
+// Ridirige il browser verso la pagina indicata nella location
+header('Location:lista_prenotazioni.php'); // risposta che arriva al browser
+exit(0);  // fa finire lo script

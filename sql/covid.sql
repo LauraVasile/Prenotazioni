@@ -34,4 +34,4 @@ CREATE TABLE `prenotazioni` (
 -- Dumping data for table `prenotazioni`
 --
 
--- Dump completed on 2021-03-13 10:47:25
+-- Dump completed on 2021-03-13 11:17:26

@@ -1110,7 +1110,12 @@
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="352" parent="348" name="PRIMARY">
+    <column id="352" parent="348" name="codice_prenotazione">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="353" parent="348" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

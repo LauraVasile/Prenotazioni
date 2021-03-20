@@ -10,6 +10,14 @@ $sql = "INSERT INTO prenotazioni VALUES(null, :codice_fiscale, :giorno, :codice_
 
 //Inviamo la query al db che la tiene in pancia
 $stmt = $pdo-> prepare($sql);
+$sql1 = "SELECT COUNT(*) AS n_prenotazioni FROM prenotazioni WHERE giorno = '$giorno'";
+
+$n_prenotazioni = $pdo->query($sql1)->fetchAll()[0]["n_prenotazioni"];
+
+if ( $n_prenotazioni >= 3){
+    echo "Impossibile prenotare, numero massimo di prenotazioni raggiunto";
+    exit(0);
+}
 
 //Inviamo i dati concreti che verranno messi al posto dei segnaposto
 $stmt -> execute(

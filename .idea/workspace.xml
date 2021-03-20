@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a28f2c-0084-41af-a249-fd45394faaaa" name="Default Changelist" comment="Add sql schema">
-      <change afterPath="$PROJECT_DIR$/prenotazione_corrente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/prenotazione_corrente.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cebfe804-5e47-4ee2-a9ca-1d9bb96aa566.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cebfe804-5e47-4ee2-a9ca-1d9bb96aa566.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +236,7 @@
       <workItem from="1615622623252" duration="9613000" />
       <workItem from="1615888882214" duration="5021000" />
       <workItem from="1616060238063" duration="4482000" />
-      <workItem from="1616227429061" duration="7637000" />
+      <workItem from="1616227429061" duration="8960000" />
     </task>
     <task id="LOCAL-00001" summary="ciao">
       <created>1615023977294</created>
@@ -362,7 +357,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616231478578</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add limited number of reservations per day">
+      <created>1616239174841</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239174841</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add limited number of reservations per day">
+      <created>1616239340123</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239340123</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add limited number of reservations per day">
+      <created>1616239401530</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239401530</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +412,8 @@
     <MESSAGE value="Add vendor folder to gitignore" />
     <MESSAGE value="Add template and table" />
     <MESSAGE value="Add current list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add current list" />
+    <MESSAGE value="Add limited number of reservations per day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add limited number of reservations per day" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="0" key="#CLI_Interpreters" timestamp="1615555357777">
@@ -407,6 +424,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Deployment/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615031482819" />
+    <state x="392" y="165" key="#Notifications" timestamp="1616239662176">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="392" y="165" key="#Notifications/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616239662176" />
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615030274815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -458,11 +479,11 @@
     </state>
     <state x="-1204" y="415" key="NewPhpFileDialog/0.0.1280.680/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1615631111975" />
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616230408735" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1616231501808">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1616239863082">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1570" y="124" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.11.1920.1040@-1920.11.1920.1040" timestamp="1615630886348" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616231501808" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616239863082" />
     <state x="507" y="79" width="614" height="593" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616230877665">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

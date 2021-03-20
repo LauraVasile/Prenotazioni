@@ -18,7 +18,7 @@ $stmt = $pdo-> query($sql);
 $result = $stmt-> fetchAll();
 
 
-echo $templates ->render('lista_prenotazioni', ['result'=> $result]);
+echo $templates ->render('lista_prenotazioni1', ['result'=> $result]);
 
 
 /*echo '<table>

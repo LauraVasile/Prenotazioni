@@ -26,7 +26,9 @@ CREATE TABLE `prenotazioni` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `codice_fiscale` varchar(16) NOT NULL,
   `giorno` date NOT NULL,
+  'codice_prenotazione' varchar DEFAULT NULL,
   PRIMARY KEY (`id`)
+
 ) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

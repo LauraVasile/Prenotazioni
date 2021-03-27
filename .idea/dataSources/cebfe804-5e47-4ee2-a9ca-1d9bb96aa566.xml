@@ -1110,7 +1110,22 @@
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="352" parent="348" name="PRIMARY">
+    <column id="352" parent="348" name="codice_prenotazione">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="353" parent="348" name="eseguito">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="354" parent="348" name="note">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="355" parent="348" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

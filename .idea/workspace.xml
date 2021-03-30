@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a28f2c-0084-41af-a249-fd45394faaaa" name="Default Changelist" comment="Add configuration about errors">
-      <change afterPath="$PROJECT_DIR$/esegui.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esegui_tampone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/esegui.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annulla.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/annulla.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/cebfe804-5e47-4ee2-a9ca-1d9bb96aa566.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cebfe804-5e47-4ee2-a9ca-1d9bb96aa566.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esegui.php" beforeDir="false" afterPath="$PROJECT_DIR$/esegui.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +93,7 @@
       <workItem from="1616493943649" duration="4464000" />
       <workItem from="1616669677833" duration="111000" />
       <workItem from="1616831708210" duration="8427000" />
+      <workItem from="1617094916337" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="ciao">
       <created>1615023977294</created>
@@ -188,10 +189,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1615029059413" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1616495522361">
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1617101000261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616495522361" />
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1617101000261" />
     <state x="104" y="0" width="1004" height="680" key="SettingsEditor" timestamp="1616840623598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -200,13 +201,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616835308541" />
-    <state x="487" y="-4" width="431" height="593" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616839772031">
+    <state x="438" y="161" width="404" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1617100917655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="487" y="-4" width="431" height="593" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616839772031" />
+    <state x="438" y="161" width="404" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1617100917655" />
+    <state x="487" y="-4" width="431" height="593" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1617100962602">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="487" y="-4" width="431" height="593" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1617100962602" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616835380771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1616835380771" />
+    <state x="428" y="185" key="git4idea.ui.GitTagDialog" timestamp="1617100862402">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="428" y="185" key="git4idea.ui.GitTagDialog/0.0.1280.680/-1920.11.1920.1040@0.0.1280.680" timestamp="1617100862402" />
   </component>
 </project>
